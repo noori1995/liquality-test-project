@@ -27,7 +27,7 @@ export default createStore({
         })
         .catch((error) => {
           if (error.response) {
-            console.log('error', error.response)
+            // console.log('error', error.response)
             return error.response.data
           }
         })
